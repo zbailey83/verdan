@@ -34,14 +34,14 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({ onComplete }) => {
           <div className="absolute inset-0 bg-emerald-400 opacity-20 blur-3xl rounded-full animate-pulse transform scale-150"></div>
 
           {/* Clay Icon Container */}
-          <div className="relative w-32 h-32 clay-card rounded-full flex items-center justify-center animate-[float_4s_ease-in-out_infinite]">
-            <LeafIcon className="w-16 h-16 text-emerald-600" />
+          <div className="relative w-32 h-32 clay-card rounded-full flex items-center justify-center animate-[float_4s_ease-in-out_infinite] overflow-hidden">
+            <img src="/verdana-logo.png" alt="Verdant Logo" className="w-20 h-20 object-contain" />
           </div>
         </div>
 
         <div className="text-center space-y-2 mb-12">
-          <h1 className="text-5xl font-bold text-slate-800 tracking-tight drop-shadow-sm font-quicksand">Verdant</h1>
-          <p className="text-slate-500 font-medium text-lg tracking-wide">Your AI Botanist</p>
+          <h1 className="sr-only">Verdant</h1>
+          <p className="text-slate-600 font-playfair italic text-2xl tracking-wide">Your AI Botanist</p>
         </div>
 
         <div className="flex flex-col items-center gap-4 pointer-events-auto">

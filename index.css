@@ -9,6 +9,7 @@
   --color-secondary-foreground: hsl(var(--secondary-foreground));
   --color-muted: hsl(var(--muted));
   --color-muted-foreground: hsl(var(--muted-foreground));
+  --font-playfair: "Playfair Display", serif;
 }
 
 @layer base {
